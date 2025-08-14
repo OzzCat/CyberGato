@@ -3,8 +3,8 @@ Electronic schema, module list and arduino code for autonomous RFID reader based
 
 Data can be read in real-time using Wi-Fi access point or downloaded by disconnecting SD-card.
 Predefined parameters:
-Point name: CyberGato
-Password: 12345678
-Webpage Address: 192.168.4.1
+Point name: CyberGato<br>
+Password: 12345678<br>
+Webpage Address: 192.168.4.1<br>
 
 List of possible hardware replacements included and will be expanded.
