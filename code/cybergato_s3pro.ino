@@ -542,17 +542,4 @@ bool checkChipString(String chipData)
   if (chipData[19] != '#')
     return false;
   return true;
-  /*int chksum = chipData[1];
-  for (int ind = 2; ind < 17; ind ++)
-  {
-    chksum = chksum ^ chipData[ind];
-  }
-  String chksumStr = String(chksum, HEX);
-  Serial.println(chksum, HEX);
-  Serial.println(chksumStr);
-  // ПРОВЕРКА НА ОДНОЗНАЧНОЕ ЧИСЛО И ДОПИСЫВАНИЕ НОЛИКА
-  if (chksumStr[0] == chipData[17])
-    Serial.println("First ok");
-  if (chksumStr[1] == chipData[18])
-    Serial.println("Second ok");*/
 }
