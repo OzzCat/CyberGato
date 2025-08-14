@@ -12,4 +12,4 @@ Possible replacements:
 2. Tried out other chinese modules, any 3.3/5 should do the work (need to additionally check the output format), but those gave the best results. 9v modules require some tinkering with battery wiring as well
 3. Any NEO dev board should be fine, 8 and 10 are better than older ones.
 4. Again, any other RTC module, those were just cheap and reliable
-5. A lot of options. Firstly, boards based on ETA9640/IP5306/BQ25895. We look for 3.3v for ESP/RTC/GPS and 3.3/5/9v for RFID module. Another possible option - using power source with LiIon 18650 batteries, for example diymore battery shields.
+5. A lot of options. Firstly, boards based on ETA9640/IP5306/BQ25895. We look for 3.3/5v for ESP/RTC/GPS (when using 5 - need to power on GPC and RTC from ESP board and power ESP board using VIN pin) and 3.3/5/9v for RFID module. Another possible option - using power source with LiIon 18650 batteries, for example diymore battery shields.
